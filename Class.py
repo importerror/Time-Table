@@ -36,3 +36,7 @@ def Class():
             print "\n"
             count=0
 Class()
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2aee3b625fddd8d8af0de11df75d330016b65d3b
