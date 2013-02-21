@@ -1,20 +1,27 @@
 from random import shuffle
+import numpy
 
-matri=[]
+matrix=numpy.chararray((6,9),)
+matrix[:]='a'
+days=['Mon','Tue','Wed','Thurs','Fri','Sat']
+period=[]
+for i in range(0,9):
+    period.append(`i+1`)
 Lname=[]
 name="Name"
 
 def Class():
-    for i in range(0,8):
-        for j in range(0,8):
-            Lname.append(name+`i+1`+`j`)
-    for i in range(0,2):
-        Lname.append('LAB')
+    for i in range(0,6):
+        Lname.append((name+`i+1`))
+    Lname.append('LAB')
     shuffle(Lname)
     count=0
     for i in Lname:
-        if count!=7:
-            print i,
+        if i=='LAB':
+            print i
+            count+=3
+        elif count!=9:
+            print i
             count+=1
         else:   
             print "\n"
