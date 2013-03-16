@@ -1,0 +1,8 @@
+These Constraints are not in order remember.
+1.Teacher should get atleast one hour break after a class.
+2.There should be no room clash.i.e. No two class in same room simultaneously.
+3.The teacher should not have class in two different sections at same time(Teacher Clash).
+4.The Time-Table is for Undergraduate and Post-Graduate.
+5.If a teacher takes 3 subjects then that person cannot take any labs.
+  else if teacher is given a lab incharge.
+
