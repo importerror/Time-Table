@@ -5,4 +5,5 @@ These Constraints are not in order remember.
 4.The Time-Table is for Undergraduate and Post-Graduate.
 5.If a teacher takes 3 subjects then that person cannot take any labs.
   else if teacher is given a lab incharge.
-
+6.Teacher Absency: If teacher is absent for long time, there should be another teacher who must balance the workload.
+7.Also need to calculate the department workload, Teacher workload.
