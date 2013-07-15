@@ -1,4 +1,6 @@
 Time-Table
 ==========
 
-A Time-Table Generator App for College using python and mysqldb
+A Time-Table Generator App for College.
+
+
